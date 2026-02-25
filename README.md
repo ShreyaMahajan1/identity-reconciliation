@@ -4,7 +4,7 @@ Backend service for Bitespeed's identity reconciliation system. Tracks customer 
 
 ## Hosted Endpoint
 
-🚀 **Live API**: `https://your-app.render.com/identify` (Update after deployment)
+🚀 **Live API**: `https://identity-reconciliation-fbrr.onrender.com/identify` 
 
 ## Features
 
@@ -123,16 +123,7 @@ curl -X POST http://localhost:3000/identify \
   -d '{"email":"test@example.com"}'
 ```
 
-## Deployment
 
-The service can be deployed to any Node.js hosting platform:
-
-- **Render.com** (recommended for free tier)
-- **Railway.app**
-- **Heroku**
-- **AWS/GCP/Azure**
-
-For production, replace SQLite with PostgreSQL or MySQL.
 
 ## Environment Variables
 
